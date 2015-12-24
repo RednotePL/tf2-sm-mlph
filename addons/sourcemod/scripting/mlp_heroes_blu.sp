@@ -179,6 +179,8 @@ public OnPluginStart()
 	PrecacheModel("models/jugcustom/mlp/fluttershy/medic1.mdl");
 	
 	UpdateBossSpecs();
+	
+	AutoExecConfig(true, "mlph_b", "sourcemod");
 }
 public DeD()
 {
